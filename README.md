@@ -8,3 +8,4 @@
 2. [闭包](./JavaScript/闭包.md)
 3. [事件循环](./JavaScript/事件循环.md)
 4. [数据类型和深拷贝](./JavaScript/数据类型和深拷贝.md)
+5. [DOM 事件流](./JavaScript/DOM事件流.md)
