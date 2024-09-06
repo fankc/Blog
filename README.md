@@ -10,3 +10,4 @@
 4. [数据类型和深拷贝](./JavaScript/数据类型和深拷贝.md)
 5. [DOM 事件流](./JavaScript/DOM事件流.md)
 6. [数据类型检测](./JavaScript/数据类型检测.md)
+7. [手写 AJAX](./JavaScript/手写AJAX.md)
