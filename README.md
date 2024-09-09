@@ -12,4 +12,5 @@
 6. [数据类型检测](./JavaScript/数据类型检测.md)
 7. [手写 AJAX](./JavaScript/手写AJAX.md)
 8. [手写 new 运算符](./JavaScript/手写new运算符.md)
-9. [手写 call、apply 和 bind 方法](./JavaScript/手写call、apply和bind方法.md)
+9.  [手写 Object.create 方法](./JavaScript/手写Object.create方法.md)
+10. [手写 call、apply 和 bind 方法](./JavaScript/手写call、apply和bind方法.md)

@@ -24,6 +24,8 @@ function myNew(constructor, ...args) {
 }
 ```
 
+> 关于 `Object.create` 可查看《[手写 Object.create 方法](./手写Object.create方法.md)》。
+
 测试代码：
 
 ```javascript
