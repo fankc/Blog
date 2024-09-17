@@ -1,11 +1,3 @@
-<style>
-pre {
-  overflow-y: auto;
-  max-height: 500px;
-}
-</style>
-
-
 # Vue2 与 Vue3 的区别
 
 ## 1. API 类型不同
