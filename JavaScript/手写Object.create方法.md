@@ -98,7 +98,7 @@ rect.move(1, 1); // 打印 'Shape moved.'
 ```javascript
 function create(proto, propertiesObject) {
     if (typeof proto !== 'object' && typeof proto !== 'function') {
-        throw new TypeError('Object prototype may only be an Object or null')
+        throw new TypeError('Object prototype may only be an Object or null');
     }
     let obj = {};
     Object.setPrototypeOf(obj, proto);
