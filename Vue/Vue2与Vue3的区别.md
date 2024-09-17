@@ -260,7 +260,7 @@ function updateChildren (parentElm, oldCh, newCh, insertedVnodeQueue, removeOnly
 
 ```
 
-### Vue3 —— 快速diff算法
+### Vue3 —— 快速 diff 算法
 
 1. 从头部开始遍历，若新旧节点相同直接复用，否则跳出循环。
 2. 然后从尾部开始遍历，若新旧节点相同直接复用，否则跳出循环。
