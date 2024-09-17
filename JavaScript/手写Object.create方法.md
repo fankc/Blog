@@ -97,12 +97,11 @@ rect.move(1, 1); // 打印 'Shape moved.'
 
 ```javascript
 function create(proto, propertiesObject) {
-    // 创建一个空的构造函数
-    function F() {};
-    // 将传入的对象作为这个构造函数的 `prototype` 属性
-    F.prototype = proto;
-    // 利用构造函数创建实例对象
-    let obj = new F();
+    if (typeof proto !== 'object' && typeof proto !== 'function') {
+        throw new TypeError('Object prototype may only be an Object or null')
+    }
+    let obj = {};
+    Object.setPrototypeOf(obj, proto);
     if (propertiesObject) {
         // 设置实例对象的属性
         Object.defineProperties(obj, propertiesObject);
