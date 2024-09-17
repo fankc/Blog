@@ -15,8 +15,13 @@
 
 ```javascript
 function myNew(constructor, ...args) {
+    let obj;
     // 对应上面的步骤 1 和 2
-    const obj = Object.create(constructor.prototype);
+    try{
+        obj = Object.create(constructor.prototype);
+    } catch {
+        obj = {};
+    }
     // 对应上面的步骤 3
     const res = constructor.apply(obj, args);
     // 对应上面的步骤 4
