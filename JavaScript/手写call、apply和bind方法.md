@@ -98,7 +98,7 @@ Function.prototype.myApply = function (context, rest) {
         // 执行函数，隐式绑定，当前函数的 this 指向了 context
         result = context.fn(...rest);
     } else {
-        result = context.fn();
+        throw new TypeError('CreateListFromArrayLike called on non-object')
     }
     // 删除函数
     delete context.fn;
@@ -117,7 +117,7 @@ function bar(job, age) {
 bar.myApply(foo, ['programmer', 20]);
 // Selina programmer 20
 bar.myApply(null, ['teacher', 25]);
-// 浏览器环境：Chirs programmer 20；node 环境：undefined teacher 25
+// 浏览器环境：Chirs teacher 25；node 环境：undefined teacher 25
 ```
 
 ## bind
