@@ -1,7 +1,5 @@
 # fankc 的博客
 
-欢迎来到 fankc 的博客！在这里，我将分享关于编程和前端技术的见解和经验。如果文章对你的学习成长有所帮助，欢迎 Star，你的支持是我创作分享的动力。
-
 ## JavaScript 系列
 
 1. [原型和原型链](./JavaScript/原型和原型链.md)
@@ -14,3 +12,7 @@
 8. [手写 new 运算符](./JavaScript/手写new运算符.md)
 9.  [手写 Object.create 方法](./JavaScript/手写Object.create方法.md)
 10. [手写 call、apply 和 bind 方法](./JavaScript/手写call、apply和bind方法.md)
+
+## Vue 系列
+
+1. [Vue2 和 Vue3 的区别](./Vue/Vue2与Vue3的区别.md)
