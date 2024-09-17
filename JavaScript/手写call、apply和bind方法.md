@@ -98,7 +98,7 @@ Function.prototype.myApply = function (context, rest) {
         // 执行函数，隐式绑定，当前函数的 this 指向了 context
         result = context.fn(...rest);
     } else {
-        throw new TypeError('CreateListFromArrayLike called on non-object')
+        throw new TypeError('CreateListFromArrayLike called on non-object');
     }
     // 删除函数
     delete context.fn;
