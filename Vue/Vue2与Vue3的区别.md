@@ -268,7 +268,7 @@ function updateChildren (parentElm, oldCh, newCh, insertedVnodeQueue, removeOnly
 4. 如果新节点遍历完了, 还有旧的节点, 那么剩下的旧节点就是要移除的
 5. 如果都没遍历完：
    1. 创建一个新节点与旧节点的位置映射表，无法与新节点映射的旧节点直接被移除。
-   2. 然后根据这个映射表计算出最长递增子序列，这个序列中的结点代表可以原地复用，不需要移动。之后移动（或新增不在映射表中的新节点）剩下的新结点到正确的位置即递增序列的间隙中。
+   2. 然后根据这个映射表计算出**[最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/)**，这个序列中的结点代表可以原地复用，不需要移动。之后移动（或新增不在映射表中的新节点）剩下的新结点到正确的位置即递增序列的间隙中。
 
 ```javascript
   const patchKeyedChildren = (
