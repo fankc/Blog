@@ -13,6 +13,7 @@
 9.  [手写 Object.create 方法](./JavaScript/手写Object.create方法.md)
 10. [手写 call、apply 和 bind 方法](./JavaScript/手写call、apply和bind方法.md)
 11. [手写实现发布-订阅者模式](./JavaScript/手写实现发布-订阅者模式.md)
+12. [防抖函数和节流函数](./JavaScript/防抖函数和节流函数.md)
 
 ## Vue 系列
 
