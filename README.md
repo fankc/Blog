@@ -14,6 +14,7 @@
 10. [手写 call、apply 和 bind 方法](./JavaScript/手写call、apply和bind方法.md)
 11. [手写实现发布-订阅者模式](./JavaScript/手写实现发布-订阅者模式.md)
 12. [防抖函数和节流函数](./JavaScript/防抖函数和节流函数.md)
+13. [手写 Promise 静态方法 resolve、reject、all、allSettled、any、race、withResolvers 和 try](./JavaScript/手写Promise静态方法resolve、reject、all、allSettled、any、race、withResolvers%20和%20try.md)
 
 ## Vue 系列
 
