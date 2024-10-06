@@ -42,7 +42,7 @@ Promise.myReject = function (reason) {
 * `Promise.all` 等待所有 `Promise` 都完成（或第一个失败）；
 * 如果传入的参数是一个空的可迭代对象，则返回一个已完成状态（`fulfilled`）的 `Promise`；
 * 如果参数中包含非 `Promise` 值，这些值将被忽略，但仍然会被放在返回数组中（也就是如果参数里的某值不是 `Promise`，则需要原样返回在数组里）；
-* 在任何情况下，`Promise.all` 返回的 `Promise` 的**完成状态**的结果都是一个数组，它包含所有的传入迭代参数对象的值（也包括非 `Promise` 值）；
+* 在任何情况下，`Promise.all` 返回的 `Promise` 的**完成状态**的结果都是一个数组，它包含所有的传入迭代参数对象的值（也包括非 `Promise` 值）。
 
 ```javascript
 Promise.myAll = function (promises) {
